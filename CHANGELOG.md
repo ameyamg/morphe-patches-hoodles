@@ -1,3 +1,10 @@
+## [1.38.2-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.38.1...v1.38.2-dev.1) (2026-07-05)
+
+
+### Bug Fixes
+
+* Update signature spoofing code ([1641c4d](https://github.com/hoo-dles/morphe-patches/commit/1641c4d16cafca2e1d896537e94ca62ec5e875a7))
+
 ## [1.38.1](https://github.com/hoo-dles/morphe-patches/compare/v1.38.0...v1.38.1) (2026-06-28)
 
 

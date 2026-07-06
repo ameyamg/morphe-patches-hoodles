@@ -17,5 +17,6 @@ val disableTelemetryPatch = bytecodePatch(
 
     execute {
         IsSkipLoggingFingerprint.method.returnEarly(true)
+        LogAgentRecordFingerprint.method.returnEarly()
     }
 }

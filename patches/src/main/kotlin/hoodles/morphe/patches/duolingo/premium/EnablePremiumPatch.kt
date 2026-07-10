@@ -3,23 +3,20 @@ package hoodles.morphe.patches.duolingo.premium
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.instructions
-import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.stringOption
+import app.morphe.util.constructor
+import app.morphe.util.fieldByName
 import app.morphe.util.getReference
 import hoodles.morphe.patches.duolingo.shared.Constants
 import hoodles.morphe.patches.duolingo.shared.Utils.fieldFromToString
 import com.android.tools.smali.dexlib2.AccessFlags
-import com.android.tools.smali.dexlib2.Opcode
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
-import hoodles.morphe.util.constructor
-import hoodles.morphe.util.fieldByName
 import app.morphe.util.indexOfFirstInstructionOrThrow
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import hoodles.morphe.patches.duolingo.shared.integrity.disableLoginIntegrityPatch
-import hoodles.morphe.util.addInstructionsToEnd
 import hoodles.morphe.util.removeFlag
 
 enum class PremiumVariant {

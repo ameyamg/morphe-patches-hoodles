@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.38.2",
+  "version": "1.39.0-dev.1",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -372,6 +372,34 @@
           "targets": [
             {
               "version": "2026.04.27-release",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Disable telemetry",
+      "description": "Blocks SuperChinese's custom telemetry reporting.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.superchinese",
+          "name": "SuperChinese",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F79729",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.6.3",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1955,6 +1983,34 @@
           "targets": [
             {
               "version": "5.17.72.0",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlock all lessons",
+      "description": "Only unlocks lessons on the client UI! This is useful for pre-downloading content during free trial periods.",
+      "default": true,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.superchinese",
+          "name": "SuperChinese",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#F79729",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.6.3",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

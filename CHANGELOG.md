@@ -1,3 +1,10 @@
+# [1.39.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.38.2...v1.39.0-dev.1) (2026-07-10)
+
+
+### Features
+
+* **SuperChinese:** Add `Unlock all lessons` and `Disable telemetry` patches ([5a4000e](https://github.com/hoo-dles/morphe-patches/commit/5a4000e7cc1282518fe963582c3731deda929b57))
+
 ## [1.38.2](https://github.com/hoo-dles/morphe-patches/compare/v1.38.1...v1.38.2) (2026-07-06)
 
 

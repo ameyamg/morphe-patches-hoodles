@@ -119,20 +119,27 @@ val enablePremiumPatch = bytecodePatch(
                 }
             }
 
-            // Video call from bottom nav is gated by isEligibleForSecondaryUpsell, which will
+            // Video call from bottom nav is gated by isEligibleFor[Secondary]Upsell, which will
             // force upsell purchase activity if true. I don't know where this comes from either,
             // so patch at VideoCallTabCtaButtonState initialization.
-            VideoCallTabCtaButtonStateToStringFingerprint.apply {
-                val upsellField = instructionMatches.last().getFieldAccessed()
-                classDef.constructor.also {
-                    val setFieldIndex = it.indexOfFirstInstructionOrThrow {
-                        getReference<FieldReference>()?.name == upsellField.name
-                    }
-                    val paramReg = it.getInstruction<TwoRegisterInstruction>(setFieldIndex).registerA
+            val vidCallFieldStrings = listOf(
+                ", isEligibleForSecondaryUpsell=",
+                ", isEligibleForUpsell="
+            )
 
-                    it.addInstructions(setFieldIndex, """
+            vidCallFieldStrings.forEach { fieldStr ->
+                getVideoCallTabCtaButtonStateFieldFingerprint(fieldStr).apply {
+                    val upsellField = instructionMatches.last().getFieldAccessed()
+                    classDef.constructor.also {
+                        val setFieldIndex = it.indexOfFirstInstructionOrThrow {
+                            getReference<FieldReference>()?.name == upsellField.name
+                        }
+                        val paramReg = it.getInstruction<TwoRegisterInstruction>(setFieldIndex).registerA
+
+                        it.addInstructions(setFieldIndex, """
                         const/4 v$paramReg, 0x0
                     """.trimIndent())
+                    }
                 }
             }
         }

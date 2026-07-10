@@ -8,6 +8,18 @@ import com.android.tools.smali.dexlib2.AccessFlags
 import com.android.tools.smali.dexlib2.iface.ClassDef
 
 /**
+ * Get the first constructor.
+ */
+internal val MutableClass.constructor: MutableMethod
+    get() = this.methods.first { it.name == "<init>" }
+
+/**
+ * Get the first static constructor.
+ */
+internal val MutableClass.staticConstructor: MutableMethod
+    get() = this.methods.first { it.name == "<clinit>" }
+
+/**
  * Remove the given AccessFlags from the field.
  */
 internal fun MutableField.removeFlag(vararg flags: AccessFlags) {

@@ -5,7 +5,6 @@ import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.extensions.InstructionExtensions.instructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.patch.stringOption
-import app.morphe.util.constructor
 import app.morphe.util.fieldByName
 import app.morphe.util.getReference
 import hoodles.morphe.patches.duolingo.shared.Constants
@@ -17,6 +16,7 @@ import app.morphe.util.indexOfFirstInstructionOrThrow
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import hoodles.morphe.patches.duolingo.shared.integrity.disableLoginIntegrityPatch
+import hoodles.morphe.util.constructor
 import hoodles.morphe.util.removeFlag
 
 enum class PremiumVariant {
@@ -70,7 +70,7 @@ val enablePremiumPatch = bytecodePatch(
         // For patching user properties, we target the User object that is passed in to the
         // constructor of the LoggedIn class. This way we don't affect all instances of users
         // (eg. viewing a friend's profile).
-        LoggedInStateFingerprint.classDef.constructor().apply {
+        LoggedInStateFingerprint.classDef.constructor.apply {
             val userType = UserFingerprint.classDef.type
             val patchIndex = this.instructions.count() - 1
 
@@ -124,7 +124,7 @@ val enablePremiumPatch = bytecodePatch(
             // so patch at VideoCallTabCtaButtonState initialization.
             VideoCallTabCtaButtonStateToStringFingerprint.apply {
                 val upsellField = instructionMatches.last().getFieldAccessed()
-                classDef.constructor().also {
+                classDef.constructor.also {
                     val setFieldIndex = it.indexOfFirstInstructionOrThrow {
                         getReference<FieldReference>()?.name == upsellField.name
                     }

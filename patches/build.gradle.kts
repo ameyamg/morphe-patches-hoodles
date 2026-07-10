@@ -33,6 +33,9 @@ dependencies {
     implementation(libs.guava)
     implementation(libs.morphe.patches.library)
 
+    // Used to read exported symbol from ELF libraries
+    implementation(libs.jelf)
+
     compileOnly(project(":patches:stub"))
 }
 

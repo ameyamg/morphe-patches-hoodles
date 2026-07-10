@@ -12,13 +12,25 @@ patches {
     }
 }
 
+repositories {
+    google()
+    mavenCentral()
+    maven {
+        name = "GitHubPackages"
+        url = uri("https://maven.pkg.github.com/MorpheApp/registry")
+        credentials {
+            username = providers.gradleProperty("gpr.user").orNull ?: System.getenv("GITHUB_ACTOR")
+            password = providers.gradleProperty("gpr.key").orNull ?: System.getenv("GITHUB_TOKEN")
+        }
+    }
+    maven { url = uri("https://jitpack.io") }
+}
+
 dependencies {
     // Used by JsonGenerator.
     implementation(libs.gson)
-
     // Required due to smali, or build fails. Can be removed once smali is bumped.
     implementation(libs.guava)
-
     implementation(libs.morphe.patches.library)
 
     compileOnly(project(":patches:stub"))
@@ -42,5 +54,13 @@ tasks {
 kotlin {
     compilerOptions {
         freeCompilerArgs = listOf("-Xcontext-parameters")
+        jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
     }
+
+    jvmToolchain(17)
+}
+
+java {
+    targetCompatibility = JavaVersion.VERSION_17
+    sourceCompatibility = JavaVersion.VERSION_17
 }

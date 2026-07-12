@@ -1,3 +1,10 @@
+# [1.39.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.39.0-dev.3...v1.39.0-dev.4) (2026-07-12)
+
+
+### Bug Fixes
+
+* **SuperChinese:** Allow starting pre-downloaded lessons after VIP lapse ([3f84b3c](https://github.com/hoo-dles/morphe-patches/commit/3f84b3c47ecf66c7cae96d17481fc9ed0be14a0a))
+
 # [1.39.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.39.0-dev.2...v1.39.0-dev.3) (2026-07-10)
 
 

@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.39.0-dev.4",
+  "version": "1.39.0",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -457,6 +457,13 @@
           "targets": [
             {
               "version": "1.16.7",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "1.16.15",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1525,7 +1532,7 @@
       "options": []
     },
     {
-      "name": "Enable SoundCloud Go+",
+      "name": "Enable SoundCloud Go",
       "description": "Enables app features locked behind the subscription paywall.",
       "default": true,
       "dependencies": [

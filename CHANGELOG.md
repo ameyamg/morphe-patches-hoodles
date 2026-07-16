@@ -1,3 +1,10 @@
+# [1.40.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.39.0...v1.40.0-dev.1) (2026-07-16)
+
+
+### Features
+
+* **Github:** Update patch to support v1.267 ([0a51f27](https://github.com/hoo-dles/morphe-patches/commit/0a51f27ba24e410ed0a813dffbc63780552e3a03))
+
 # [1.39.0](https://github.com/hoo-dles/morphe-patches/compare/v1.38.2...v1.39.0) (2026-07-15)
 
 

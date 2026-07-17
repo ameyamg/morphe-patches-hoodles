@@ -8,6 +8,6 @@ object Constants {
         name = "Proton VPN",
         packageName = "ch.protonvpn.android",
         appIconColor = 0x6D4AFF,
-        targets = listOf(AppTarget("5.17.72.0"))
+        targets = listOf(AppTarget("5.19.43.0"))
     )
 }

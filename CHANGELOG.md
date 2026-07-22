@@ -1,3 +1,10 @@
+# [1.40.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.2...v1.40.0-dev.3) (2026-07-22)
+
+
+### Features
+
+* **Ling:** Add `Enable Pro` patch ([5d682ef](https://github.com/hoo-dles/morphe-patches/commit/5d682ef19539896349af176273b31101e8372451))
+
 # [1.40.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.1...v1.40.0-dev.2) (2026-07-17)
 
 

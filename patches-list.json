@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.40.0-dev.3",
+  "version": "1.40.0-dev.4",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -1049,32 +1049,6 @@
     },
     {
       "name": "Enable Premium",
-      "description": "Enables app features locked behind the subscription paywall.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "net.teuida.teuida",
-          "name": "Teuida",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#52DBD7",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.21.16",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Enable Premium",
       "description": "Enables app features locked behind the subscription paywall. There is a strict version requirement for this patch.",
       "default": true,
       "dependencies": [
@@ -1820,36 +1794,6 @@
           "targets": [
             {
               "version": "3.4.1",
-              "versionCodes": null,
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "MicroG integration",
-      "description": "Allows the app to work without root by using MicroG instead of Google Play Services.",
-      "default": true,
-      "dependencies": [
-        "ResourcePatch",
-        "ResourcePatch",
-        "BytecodePatch"
-      ],
-      "compatiblePackages": [
-        {
-          "packageName": "net.teuida.teuida",
-          "name": "Teuida",
-          "description": null,
-          "apkFileType": null,
-          "appIconColor": "#52DBD7",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "1.21.16",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

@@ -1,3 +1,10 @@
+# [1.40.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.3...v1.40.0-dev.4) (2026-07-25)
+
+
+### Bug Fixes
+
+* Temporarily remove Teuida patches until MicroG RE update ([871c44e](https://github.com/hoo-dles/morphe-patches/commit/871c44e273154e59dd5a5352dea4602e7ec498af))
+
 # [1.40.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.2...v1.40.0-dev.3) (2026-07-22)
 
 

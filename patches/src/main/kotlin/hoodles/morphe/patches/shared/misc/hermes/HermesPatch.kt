@@ -6,9 +6,9 @@
 package hoodles.morphe.patches.shared.misc.hermes
 
 import app.morphe.patcher.patch.rawResourcePatch
+import app.morphe.util.byteArrayOf
+import app.morphe.util.toInt
 import hoodles.morphe.patches.shared.misc.hex.Replacement
-import hoodles.morphe.util.byteArrayOf
-import hoodles.morphe.util.toInt
 import java.io.FileNotFoundException
 import java.security.MessageDigest
 

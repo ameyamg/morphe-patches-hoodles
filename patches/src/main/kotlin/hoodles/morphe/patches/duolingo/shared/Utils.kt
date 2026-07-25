@@ -20,7 +20,7 @@ internal object Utils {
     // Gets field from toString() method with the following format:
     //  toString() { return "[Class]([field1]=" + this.a + "[field2]=" + this.b + ... + ")"; }
     internal fun ClassDef.fieldFromToString(subStr: String): FieldReference {
-        val toString = this.toStringMethod()
+        val toString = this.toStringMethod()!!
         val strIndex = toString.indexOfFirstInstructionOrThrow() {
             this.opcode == Opcode.CONST_STRING &&
                     getReference<StringReference>()?.string?.contains(subStr) ?: false

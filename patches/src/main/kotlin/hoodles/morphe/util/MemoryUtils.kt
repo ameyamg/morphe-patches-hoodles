@@ -29,3 +29,7 @@ fun ByteArray.find(pattern: ByteArray): Int {
     }
     return -1
 }
+
+object Arm64Constants {
+    const val RETURN_NULL = "00 00 80 D2 C0 03 5F D6"
+}

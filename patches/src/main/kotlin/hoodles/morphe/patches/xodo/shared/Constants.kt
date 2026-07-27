@@ -8,6 +8,6 @@ object Constants {
         name = "Xodo",
         packageName = "com.xodo.pdf.reader",
         appIconColor = 0xc82c40,
-        targets = listOf(AppTarget("10.15.0"))
+        targets = listOf(AppTarget("10.17.1"))
     )
 }

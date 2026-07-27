@@ -1,3 +1,11 @@
+/**
+ * Original code is credited to Morphe:
+ * https://github.com/MorpheApp/morphe-patches-library/blob/main/patch-library/src/main/kotlin/app/morphe/patches/all/misc/resources/ResourceMappingPatch.kt
+ *
+ * Copyright 2026 Hoo-dles
+ * https://github.com/hoo-dles/morphe-patches
+ */
+
 package hoodles.morphe.patches.shared.misc.mapping
 
 import app.morphe.patcher.patch.PatchException

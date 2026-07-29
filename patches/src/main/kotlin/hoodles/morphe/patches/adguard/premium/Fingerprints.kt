@@ -6,6 +6,8 @@
 package hoodles.morphe.patches.adguard.premium
 
 import app.morphe.patcher.Fingerprint
+import app.morphe.patcher.InstructionLocation
+import app.morphe.patcher.OpcodesFilter
 import app.morphe.patcher.fieldAccess
 import app.morphe.patcher.opcode
 import com.android.tools.smali.dexlib2.Opcode
@@ -16,9 +18,9 @@ object GetPlusStateFingerprint : Fingerprint(
     ),
     parameters = listOf(),
     returnType = "L",
-    filters = listOf(
-        fieldAccess(type = "Lcom/adguard/android/storage/"),
-        opcode(Opcode.IPUT_OBJECT)
+    filters = OpcodesFilter.opcodesToFilters(
+        Opcode.IGET_OBJECT,
+        Opcode.IF_NEZ
     )
 )
 

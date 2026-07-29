@@ -19,7 +19,7 @@ val enablePrimePatch = bytecodePatch(
     compatibleWith(Compatibility(
         name = "Nova Launcher",
         packageName = "com.teslacoilsw.launcher",
-        targets = listOf(AppTarget("81042 (8.5.1)")),
+        targets = listOf(AppTarget("88600 (8.8.6)")),
         appIconColor = 0xDA4624
     ))
 

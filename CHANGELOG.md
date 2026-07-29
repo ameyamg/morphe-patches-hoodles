@@ -1,3 +1,10 @@
+# [1.40.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.4...v1.40.0-dev.5) (2026-07-29)
+
+
+### Features
+
+* **Lightroom:** Add `Bypass login` and `Unlock premium features` patches ([d05f378](https://github.com/hoo-dles/morphe-patches/commit/d05f378b776ca4c2a4d423c2c90ec652b1ff070f))
+
 # [1.40.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.3...v1.40.0-dev.4) (2026-07-25)
 
 

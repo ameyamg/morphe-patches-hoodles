@@ -1,3 +1,10 @@
+# [1.40.0-dev.6](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.5...v1.40.0-dev.6) (2026-07-29)
+
+
+### Bug Fixes
+
+* **Adguard:** Update patch to support v4.13.0 ([8c2facc](https://github.com/hoo-dles/morphe-patches/commit/8c2facc2827c8e5c416180fa18af1454b7ad17d4))
+
 # [1.40.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.4...v1.40.0-dev.5) (2026-07-29)
 
 

@@ -1,10 +1,11 @@
 @import java.util.List
+@import hoodles.morphe.codegen.pairip.*
 
 @param String packageName
 @param String className
 @param List<String> fieldNames
 
-package ${packageName};
+package ${UtilsKt.safelyReplaceHyphen(packageName)};
 
 import java.lang.reflect.Method;
 

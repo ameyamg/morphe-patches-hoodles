@@ -1,9 +1,7 @@
-package hoodles.morphe.patches.shared.misc.pairip
+package hoodles.morphe.patches.shared.misc.pairip.bytecode
 
 import app.morphe.patcher.Fingerprint
-import app.morphe.patcher.OpcodesFilter
 import app.morphe.patcher.methodCall
-import com.android.tools.smali.dexlib2.Opcode
 
 object VMRunnerStaticCtorFingerprint : Fingerprint (
     definingClass = "Lcom/pairip/VMRunner;",

@@ -18,3 +18,5 @@ fun getOwningClass(signature: String) =
 
 fun getClassFromFqcn(fqcn: String) = fqcn.substringAfterLast(".")
 fun getPackageFromFqcn(fqcn: String) = fqcn.substringBeforeLast(".")
+
+fun safelyReplaceHyphen(str: String) = str.replace("-", "__HYPHEN__")

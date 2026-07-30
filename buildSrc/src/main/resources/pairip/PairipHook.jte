@@ -11,16 +11,16 @@ import android.util.Log;
 import java.lang.reflect.Method;
 
 @for(String clazz : data.getStrings().keySet())
-import ${clazz};
+import ${UtilsKt.safelyReplaceHyphen(clazz)};
 @endfor
 @for(String clazz : data.getMethods().keySet())
-import ${clazz};
+import ${UtilsKt.safelyReplaceHyphen(clazz)};
 @endfor
 
 
 public class PairipHook {
     public static void inject() {
-        injectString();
+        injectStrings();
         injectMethods();
     }
 
@@ -32,7 +32,7 @@ public class PairipHook {
         @endfor
     }
 
-    private static void injectString() {
+    private static void injectStrings() {
         @for(Map.Entry<String, List<Field>> entry : data.getStrings().entrySet())
             @for(Field field : entry.getValue())
                 ${UtilsKt.getClassFromFqcn(entry.getKey())}.${field.getName()} = "${UtilsKt.toLiteral(field.getValue())}";

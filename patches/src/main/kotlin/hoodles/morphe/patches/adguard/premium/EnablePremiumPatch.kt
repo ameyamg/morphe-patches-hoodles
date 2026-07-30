@@ -54,10 +54,13 @@ val enablePremiumPatch = bytecodePatch(
 
         GetPlusStateFingerprint.classDef.methods.add(getPaidLicenseMethod)
 
-        GetPlusStateFingerprint.method.addInstructions(0, """
+        val patchInstructions = """
             invoke-static {}, $getPaidLicenseMethod
             move-result-object v0
             return-object v0
-        """.trimIndent())
+        """.trimIndent()
+
+        GetPlusStateFingerprint.method.addInstructions(0, patchInstructions)
+        FetchPlusStateFingerprint.method.addInstructions(0, patchInstructions)
     }
 }

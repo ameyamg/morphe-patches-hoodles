@@ -6,10 +6,7 @@
 package hoodles.morphe.patches.adguard.premium
 
 import app.morphe.patcher.Fingerprint
-import app.morphe.patcher.InstructionLocation
 import app.morphe.patcher.OpcodesFilter
-import app.morphe.patcher.fieldAccess
-import app.morphe.patcher.opcode
 import com.android.tools.smali.dexlib2.Opcode
 
 object GetPlusStateFingerprint : Fingerprint(
@@ -21,6 +18,18 @@ object GetPlusStateFingerprint : Fingerprint(
     filters = OpcodesFilter.opcodesToFilters(
         Opcode.IGET_OBJECT,
         Opcode.IF_NEZ
+    )
+)
+
+object FetchPlusStateFingerprint : Fingerprint(
+    classFingerprint = Fingerprint(
+        strings = listOf("Failed to get state from backend. Remaining retry count: ")
+    ),
+    parameters = listOf("L", "L"),
+    returnType = "L",
+    filters = OpcodesFilter.opcodesToFilters(
+        Opcode.INSTANCE_OF,
+        Opcode.INVOKE_VIRTUAL
     )
 )
 

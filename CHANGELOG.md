@@ -1,3 +1,10 @@
+# [1.40.0-dev.7](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.6...v1.40.0-dev.7) (2026-07-30)
+
+
+### Bug Fixes
+
+* **Adguard:** Fix UI issue on license status page ([7051309](https://github.com/hoo-dles/morphe-patches/commit/705130957dc233d05aa42e1058a3124d373e52a5))
+
 # [1.40.0-dev.6](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.5...v1.40.0-dev.6) (2026-07-29)
 
 

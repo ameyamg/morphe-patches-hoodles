@@ -1,3 +1,11 @@
+# [1.41.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0...v1.41.0-dev.1) (2026-08-16)
+
+
+### Features
+
+* **MyFitnessPal:** Update patches to support `26.31.0` ([4d50bf9](https://github.com/hoo-dles/morphe-patches/commit/4d50bf9db7d4bd1ac32f393036683090429232c2))
+* **Smart Launcher:** Update patches to support `6.6 build 016` ([1218a1d](https://github.com/hoo-dles/morphe-patches/commit/1218a1d902fd28e90528765c8e6396df28d8981e))
+
 # [1.40.0](https://github.com/hoo-dles/morphe-patches/compare/v1.39.0...v1.40.0) (2026-08-07)
 
 

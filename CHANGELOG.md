@@ -1,3 +1,20 @@
+# [1.40.0](https://github.com/hoo-dles/morphe-patches/compare/v1.39.0...v1.40.0) (2026-08-07)
+
+
+### Bug Fixes
+
+* **Adguard:** Fix UI issue on license status page ([7051309](https://github.com/hoo-dles/morphe-patches/commit/705130957dc233d05aa42e1058a3124d373e52a5))
+* **Adguard:** Update patch to support v4.13.0 ([8c2facc](https://github.com/hoo-dles/morphe-patches/commit/8c2facc2827c8e5c416180fa18af1454b7ad17d4))
+* **MacroFactor:** Bump version and spoof installer source ([cde3be0](https://github.com/hoo-dles/morphe-patches/commit/cde3be0710459043ebd1d622c9356a1388ef04e4))
+* Temporarily remove Teuida patches until MicroG RE update ([871c44e](https://github.com/hoo-dles/morphe-patches/commit/871c44e273154e59dd5a5352dea4602e7ec498af))
+
+
+### Features
+
+* **Github:** Update patch to support v1.267 ([0a51f27](https://github.com/hoo-dles/morphe-patches/commit/0a51f27ba24e410ed0a813dffbc63780552e3a03))
+* **Lightroom:** Add `Bypass login` and `Unlock premium features` patches ([d05f378](https://github.com/hoo-dles/morphe-patches/commit/d05f378b776ca4c2a4d423c2c90ec652b1ff070f))
+* **Ling:** Add `Enable Pro` patch ([5d682ef](https://github.com/hoo-dles/morphe-patches/commit/5d682ef19539896349af176273b31101e8372451))
+
 # [1.40.0-dev.7](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0-dev.6...v1.40.0-dev.7) (2026-07-30)
 
 

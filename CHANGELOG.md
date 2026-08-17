@@ -1,3 +1,10 @@
+# [1.41.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.41.0-dev.2...v1.41.0-dev.3) (2026-08-17)
+
+
+### Features
+
+* **Duolingo:** Update patches to support `6.92.5` ([dca61c3](https://github.com/hoo-dles/morphe-patches/commit/dca61c3c602aecb8c0b6fcc79a4368c4bb59cf67))
+
 # [1.41.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.41.0-dev.1...v1.41.0-dev.2) (2026-08-17)
 
 

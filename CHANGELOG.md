@@ -1,3 +1,10 @@
+# [1.41.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.41.0-dev.1...v1.41.0-dev.2) (2026-08-17)
+
+
+### Features
+
+* **Windy:** Update patches to support `51.0.1` ([634ad8a](https://github.com/hoo-dles/morphe-patches/commit/634ad8aa627ce3f35ecc023d0e0df0f015b4c53c))
+
 # [1.41.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.40.0...v1.41.0-dev.1) (2026-08-16)
 
 

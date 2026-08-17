@@ -60,7 +60,7 @@ val enablePremiumPatch = bytecodePatch(
         // These fields are calculated in constructor, but not serialized. So we have to find their
         // name and set it late.
         val isPaidField = UserIsPaidFieldUsageFingerprint.let {
-            val isPaidIndex = it.instructionMatches.first().index
+            val isPaidIndex = it.instructionMatches.last().index
             it.method.getInstruction<ReferenceInstruction>(isPaidIndex).getReference<FieldReference>()!!
         }
         val hasGoldField = UserHasGoldFieldUsageFingerprint.let {

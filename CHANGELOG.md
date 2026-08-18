@@ -1,3 +1,10 @@
+# [1.41.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.41.0-dev.3...v1.41.0-dev.4) (2026-08-18)
+
+
+### Bug Fixes
+
+* **Duolingo:** Force max energy ([969359c](https://github.com/hoo-dles/morphe-patches/commit/969359c24d2d3ac6d75e06eb052c0f3cc7911b62))
+
 # [1.41.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.41.0-dev.2...v1.41.0-dev.3) (2026-08-17)
 
 

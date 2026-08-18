@@ -108,6 +108,9 @@ val enablePremiumPatch = bytecodePatch(
             )
         }
 
+        // Set current energy to max energy param
+        EnergyConfigCtorFingerprint.method.addInstructions(0, "move p1, p2")
+
         if (optionIsMax) {
             // I can't seem to find where SubscriptionFeatureGroup is stored in memory, so let's just
             // patch all the relevant call sites where the feature is checked.

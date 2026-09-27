@@ -14,7 +14,7 @@ import app.morphe.util.returnEarly
 import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.MethodReference
-import hoodles.morphe.patches.all.signature.spoofSignaturePatch
+import app.morphe.patches.all.misc.fix.spoofsignature.spoofSignaturePatch
 import hoodles.morphe.patches.xrecorder.shared.Constants
 
 @Suppress("unused")

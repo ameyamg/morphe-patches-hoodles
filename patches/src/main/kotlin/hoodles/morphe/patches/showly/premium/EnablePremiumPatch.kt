@@ -9,7 +9,7 @@ import app.morphe.patcher.patch.AppTarget
 import app.morphe.patcher.patch.Compatibility
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.util.returnEarly
-import hoodles.morphe.patches.all.signature.spoofSignaturePatch
+import app.morphe.patches.all.misc.fix.spoofsignature.spoofSignaturePatch
 
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",

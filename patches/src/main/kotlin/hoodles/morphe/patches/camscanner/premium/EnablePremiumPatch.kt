@@ -7,7 +7,7 @@ package hoodles.morphe.patches.camscanner.premium
 
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.util.returnEarly
-import hoodles.morphe.patches.all.signature.spoofSignaturePatch
+import app.morphe.patches.all.misc.fix.spoofsignature.spoofSignaturePatch
 import hoodles.morphe.patches.camscanner.shared.Constants
 
 val enablePremiumPatch = bytecodePatch(

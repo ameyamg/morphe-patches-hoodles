@@ -18,7 +18,7 @@ import com.android.tools.smali.dexlib2.iface.instruction.OneRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
-import hoodles.morphe.patches.duolingo.shared.Constants
+import hoodles.morphe.compatibility.Compat
 import hoodles.morphe.patches.duolingo.shared.Utils.fieldFromToString
 import hoodles.morphe.patches.duolingo.shared.integrity.disableLoginIntegrityPatch
 import hoodles.morphe.util.constructor
@@ -34,7 +34,7 @@ val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
     description = "Enables app features locked behind the subscription paywall."
 ) {
-    compatibleWith(Constants.COMPATIBILITY)
+    compatibleWith(Compat.DUOLINGO)
 
     dependsOn(disableLoginIntegrityPatch)
 

@@ -9,13 +9,13 @@ import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patches.all.misc.fix.changepackageinstaller.changePackageInstallerPatch
 import app.morphe.patches.all.misc.fix.spoofsignature.spoofSignaturePatch
-import hoodles.morphe.patches.niagara.shared.Constants
+import hoodles.morphe.compatibility.Compat
 
 val enableProPatch = bytecodePatch(
     name = "Enable Niagara Pro",
     description = "Enables app features locked behind the subscription paywall."
 ) {
-    compatibleWith(Constants.COMPATIBILITY)
+    compatibleWith(Compat.NIAGARA)
 
     dependsOn(spoofSignaturePatch, changePackageInstallerPatch())
 

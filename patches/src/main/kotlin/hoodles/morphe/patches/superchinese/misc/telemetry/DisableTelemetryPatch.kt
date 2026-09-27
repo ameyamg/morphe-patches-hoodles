@@ -7,16 +7,16 @@ package hoodles.morphe.patches.superchinese.misc.telemetry
 
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
-import com.android.tools.smali.dexlib2.iface.instruction.formats.Instruction11n
 import app.morphe.patches.all.misc.fix.spoofsignature.spoofSignaturePatch
-import hoodles.morphe.patches.superchinese.shared.Constants
+import com.android.tools.smali.dexlib2.iface.instruction.formats.Instruction11n
+import hoodles.morphe.compatibility.Compat
 
 @Suppress("unused")
 val disableTelemetryPatch = bytecodePatch(
     name = "Disable telemetry",
     description = "Blocks SuperChinese's custom telemetry reporting."
 ) {
-    compatibleWith(Constants.Compatibility)
+    compatibleWith(Compat.SUPERCHINESE)
 
     dependsOn(spoofSignaturePatch)
 

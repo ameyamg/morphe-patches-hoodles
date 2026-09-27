@@ -13,6 +13,7 @@ patches {
 }
 
 repositories {
+    mavenLocal()
     google()
     mavenCentral()
     maven {

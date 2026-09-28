@@ -22,6 +22,7 @@ val renamePermissionsPatch = resourcePatch(
 
     val permissionNames = setOf(
         "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER",
+        "com.amazon.identity.permission.CAN_CALL_CROSS_APP_CONTEXT_PROVIDER",
         "com.amazon.identity.auth.device.perm.AUTH_SDK",
         "com.amazon.dcp.sso.permission.account.changed",
         "com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed",

@@ -271,7 +271,7 @@ object Compat {
         name = "Prime Video",
         packageName = "com.amazon.avod.thirdpartyclient",
         appIconColor = 0x177BCE,
-        targets = listOf(AppTarget("3.0.452.1047"))
+        targets = listOf(AppTarget("3.0.470.1047"))
     )
 
     val PROTON_VPN = Compatibility(

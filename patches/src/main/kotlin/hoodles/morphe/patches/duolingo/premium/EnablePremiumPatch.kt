@@ -32,7 +32,7 @@ enum class PremiumVariant {
 @Suppress("unused")
 val enablePremiumPatch = bytecodePatch(
     name = "Enable Premium",
-    description = "Enables app features locked behind the subscription paywall."
+    description = "Enables app features locked behind the subscription paywall. Some features like AI video calls may not work."
 ) {
     compatibleWith(Compat.DUOLINGO)
 

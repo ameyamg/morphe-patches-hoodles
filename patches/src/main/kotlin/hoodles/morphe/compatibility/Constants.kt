@@ -113,7 +113,7 @@ object Compat {
         name = "Google News",
         packageName = "com.google.android.apps.magazines",
         appIconColor = 0x4285F4,
-        targets = listOf(AppTarget(version = "5.161.0.931240252"))
+        targets = listOf(AppTarget("5.161.0.931240252"))
     )
 
     val HELLO_CHINESE = Compatibility(
@@ -205,7 +205,7 @@ object Compat {
         name = "Mimo",
         packageName = "com.getmimo",
         appIconColor = 0x7E4BDE,
-        targets = listOf(AppTarget("9.24"))
+        targets = listOf(AppTarget("9.30"))
     )
 
     val MIRINAE = Compatibility(
@@ -226,10 +226,7 @@ object Compat {
         name = "Niagara Launcher",
         packageName = "bitpit.launcher",
         appIconColor = 0x9fcdfb,
-        targets = listOf(
-            AppTarget("1.16.7"),
-            AppTarget("1.16.24")
-        )
+        targets = listOf(AppTarget("1.16.24"))
     )
 
     val NOMONE = Compatibility(

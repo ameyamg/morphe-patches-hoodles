@@ -7,11 +7,11 @@ package hoodles.morphe.patches.mimo.pro
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.patch.bytecodePatch
+import app.morphe.patches.all.misc.fix.spoofsignature.spoofSignaturePatch
 import app.morphe.util.getReference
 import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.reference.FieldReference
 import hoodles.morphe.compatibility.Compat
-import hoodles.morphe.patches.mimo.shared.signature.spoofSignatureHeaderPatch
 
 @Suppress("unused")
 val enableProPatch = bytecodePatch(
@@ -20,7 +20,7 @@ val enableProPatch = bytecodePatch(
 ) {
     compatibleWith(Compat.MIMO)
 
-    dependsOn(spoofSignatureHeaderPatch)
+    dependsOn(spoofSignaturePatch)
 
     execute {
         val proTierField = ProTierFingerprint.instructionMatches.last()

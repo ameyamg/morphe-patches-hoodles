@@ -1,3 +1,23 @@
+# [1.45.0](https://github.com/hoo-dles/morphe-patches/compare/v1.44.1...v1.45.0) (2026-09-28)
+
+
+### Bug Fixes
+
+* Change `Signature spoof` to patch call sites instead of modifying PackageManager directly (support SDK 37+) ([8d8299d](https://github.com/hoo-dles/morphe-patches/commit/8d8299d64173f5bf694152d96fdbb53aa0fc184b))
+* **Lightroom:** Remove `Bypass login` patch ([618c18c](https://github.com/hoo-dles/morphe-patches/commit/618c18c2f69957d854a5ea1e47c950b970a73285))
+* **MicroG:** Fix support for Busuu ([39796a6](https://github.com/hoo-dles/morphe-patches/commit/39796a698897f764279d7439c1f01fe5395bae1a))
+* **Prime Video:** Fix `Rename shared permissions` patch for latest ([906e0a7](https://github.com/hoo-dles/morphe-patches/commit/906e0a7e137e989b009418a6456356b61fc6a3e7))
+
+
+### Features
+
+* **Bend:** Update support for `7.8.0` ([61bd8dc](https://github.com/hoo-dles/morphe-patches/commit/61bd8dc371ae1c802b4e2a115e1b66abed5823ea))
+* **Bunpo:** Update support for `3.23.1` ([cfb2ff7](https://github.com/hoo-dles/morphe-patches/commit/cfb2ff7e23bf260fc41128e7b41303df3d0dd9da))
+* **Duolingo:** Add `Unlimited RampUp time` patch ([7af89fd](https://github.com/hoo-dles/morphe-patches/commit/7af89fd4bdf3502951ce771fdb411310851ecea8))
+* **Lightroom:** Update support for `11.5.31` ([10bc5a4](https://github.com/hoo-dles/morphe-patches/commit/10bc5a44175791c1526127722cff6a1475ec46bc))
+* **Lingodeer:** Update support for `2.99.413` ([4a474f8](https://github.com/hoo-dles/morphe-patches/commit/4a474f8467cd276920cbcd9e49e003376476cab2))
+* **Mimo:** Update support for `9.30` ([306bf98](https://github.com/hoo-dles/morphe-patches/commit/306bf9803e24e3c98ac560eb9e79f3dd7e09923e))
+
 # [1.45.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.4...v1.45.0-dev.5) (2026-09-28)
 
 

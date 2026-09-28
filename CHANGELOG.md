@@ -1,3 +1,10 @@
+# [1.46.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.1...v1.46.0-dev.2) (2026-09-28)
+
+
+### Bug Fixes
+
+* **Lyfta:** Display premium UI elements as well as unlock features ([6020f74](https://github.com/hoo-dles/morphe-patches/commit/6020f74fff49aebeba8bfd0c8111afa797ba10bc))
+
 # [1.46.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.45.1-dev.1...v1.46.0-dev.1) (2026-09-28)
 
 

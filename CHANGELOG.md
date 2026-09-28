@@ -1,3 +1,10 @@
+## [1.45.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0...v1.45.1-dev.1) (2026-09-28)
+
+
+### Bug Fixes
+
+* **Duolingo:** Update support for `Enable debug mode` patch ([ee7381b](https://github.com/hoo-dles/morphe-patches/commit/ee7381bebcff21e9d24c484f8104c544ed97296e))
+
 # [1.45.0](https://github.com/hoo-dles/morphe-patches/compare/v1.44.1...v1.45.0) (2026-09-28)
 
 

@@ -19,6 +19,6 @@ val enablePremiumPatch = bytecodePatch(
     dependsOn(disableLicenseCheckPatch)
 
     execute {
-        IsPremiumUserFingerprint.method.returnEarly(true)
+        LocalAccessStateFingerprint.method.returnEarly("premium")
     }
 }

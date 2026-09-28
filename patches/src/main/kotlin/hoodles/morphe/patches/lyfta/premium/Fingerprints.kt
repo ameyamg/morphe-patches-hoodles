@@ -7,7 +7,7 @@ package hoodles.morphe.patches.lyfta.premium
 
 import app.morphe.patcher.Fingerprint
 
-object IsPremiumUserFingerprint : Fingerprint(
+object LocalAccessStateFingerprint : Fingerprint(
     definingClass = "Lcom/lyfta/util/helpers/Utils;",
-    name = "isPremiumUser"
+    name = "localAccessState"
 )

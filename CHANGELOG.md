@@ -1,3 +1,10 @@
+# [1.45.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.3...v1.45.0-dev.4) (2026-09-28)
+
+
+### Bug Fixes
+
+* **Prime Video:** Fix `Rename shared permissions` patch for latest ([906e0a7](https://github.com/hoo-dles/morphe-patches/commit/906e0a7e137e989b009418a6456356b61fc6a3e7))
+
 # [1.45.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.2...v1.45.0-dev.3) (2026-09-28)
 
 

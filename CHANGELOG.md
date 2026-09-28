@@ -1,3 +1,10 @@
+# [1.46.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.45.1-dev.1...v1.46.0-dev.1) (2026-09-28)
+
+
+### Features
+
+* **Lyfta:** Update support for `1.599` ([26bfde8](https://github.com/hoo-dles/morphe-patches/commit/26bfde8d231e91c74925355d280393c35b8cc4e8))
+
 ## [1.45.1-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0...v1.45.1-dev.1) (2026-09-28)
 
 

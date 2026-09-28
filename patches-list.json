@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.45.0-dev.4",
+  "version": "1.45.0-dev.5",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -238,7 +238,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "6.95.4",
+              "version": "6.98.4",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -721,7 +721,7 @@
     },
     {
       "name": "Enable Premium",
-      "description": "Enables app features locked behind the subscription paywall.",
+      "description": "Enables app features locked behind the subscription paywall. Some features like AI video calls may not work.",
       "default": true,
       "category": null,
       "dependencies": [
@@ -737,7 +737,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "6.95.4",
+              "version": "6.98.4",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1736,7 +1736,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "6.95.4",
+              "version": "6.98.4",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
@@ -1933,6 +1933,35 @@
           "targets": [
             {
               "version": "3.0.470.1047",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Unlimited RampUp time",
+      "description": "The timer for RampUp challenges will never decrease.",
+      "default": false,
+      "category": null,
+      "dependencies": [
+        "BytecodePatch"
+      ],
+      "compatiblePackages": [
+        {
+          "packageName": "com.duolingo",
+          "name": "Duolingo",
+          "description": null,
+          "apkFileType": null,
+          "appIconColor": "#58CC02",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "6.98.4",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

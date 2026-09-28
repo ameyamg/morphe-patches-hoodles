@@ -1,3 +1,10 @@
+# [1.45.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.4...v1.45.0-dev.5) (2026-09-28)
+
+
+### Features
+
+* **Duolingo:** Add `Unlimited RampUp time` patch ([7af89fd](https://github.com/hoo-dles/morphe-patches/commit/7af89fd4bdf3502951ce771fdb411310851ecea8))
+
 # [1.45.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.3...v1.45.0-dev.4) (2026-09-28)
 
 

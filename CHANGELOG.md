@@ -1,3 +1,10 @@
+# [1.45.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.2...v1.45.0-dev.3) (2026-09-28)
+
+
+### Features
+
+* **Mimo:** Update support for `9.30` ([306bf98](https://github.com/hoo-dles/morphe-patches/commit/306bf9803e24e3c98ac560eb9e79f3dd7e09923e))
+
 # [1.45.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0-dev.1...v1.45.0-dev.2) (2026-09-21)
 
 

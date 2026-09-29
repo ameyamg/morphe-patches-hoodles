@@ -8,7 +8,7 @@ object Compat {
         name = "AdGuard",
         packageName = "com.adguard.android",
         appIconColor = 0x67b279,
-        targets = listOf(AppTarget("4.14.1", versionCode = 42219001))
+        targets = listOf(AppTarget("4.14.2", versionCode = 42220003))
     )
 
     val ALL_TRAILS = Compatibility(

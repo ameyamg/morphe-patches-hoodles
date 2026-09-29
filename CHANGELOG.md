@@ -1,3 +1,10 @@
+# [1.46.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.2...v1.46.0-dev.3) (2026-09-29)
+
+
+### Features
+
+* **Superchinese:** Add `Block launch upsell` patch ([7968b81](https://github.com/hoo-dles/morphe-patches/commit/7968b8193f38faaf442bcb69b33d9ea6e1f442ac))
+
 # [1.46.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.1...v1.46.0-dev.2) (2026-09-28)
 
 

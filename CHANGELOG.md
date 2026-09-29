@@ -1,3 +1,10 @@
+# [1.46.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.4...v1.46.0-dev.5) (2026-09-29)
+
+
+### Bug Fixes
+
+* **`Hide app icon`:** Allow app to be launched from app info settings ([d71cda1](https://github.com/hoo-dles/morphe-patches/commit/d71cda147681ce35526f3b2f7eb3c9c21323c8f9))
+
 # [1.46.0-dev.4](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.3...v1.46.0-dev.4) (2026-09-29)
 
 

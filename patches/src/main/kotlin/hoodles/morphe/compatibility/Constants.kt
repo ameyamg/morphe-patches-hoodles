@@ -92,7 +92,7 @@ object Compat {
         name = "FotMob",
         packageName = "com.mobilefootie.wc2010",
         appIconColor = 0x00985F,
-        targets = listOf(AppTarget("236.17398.20260827"))
+        targets = listOf(AppTarget("237.17536.20260911"))
     )
 
     val GITHUB = Compatibility(

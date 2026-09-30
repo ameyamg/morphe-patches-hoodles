@@ -1,3 +1,10 @@
+# [1.46.0-dev.6](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.5...v1.46.0-dev.6) (2026-09-30)
+
+
+### Bug Fixes
+
+* **SuperChinese:** Fix signature spoofing for native binary ([a6dfeec](https://github.com/hoo-dles/morphe-patches/commit/a6dfeec6d62d6429b0182469c01cbac5ac05b8c1))
+
 # [1.46.0-dev.5](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.4...v1.46.0-dev.5) (2026-09-29)
 
 

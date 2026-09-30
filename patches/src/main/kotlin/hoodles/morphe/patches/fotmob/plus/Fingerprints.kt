@@ -36,3 +36,9 @@ object VerifiedTypeClassFingerprint : Fingerprint(
     name = "<clinit>",
     strings = listOf("NOT_REQUESTED", "VERIFIED", "FAILED", "VERIFIED_ON_DEVICE")
 )
+
+object SetLogoFingerprint : Fingerprint(
+    name = "setLogo",
+    definingClass = "Landroidx/appcompat/widget/Toolbar;",
+    parameters = listOf("I")
+)

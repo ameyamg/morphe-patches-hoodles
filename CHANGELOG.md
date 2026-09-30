@@ -1,3 +1,10 @@
+# [1.46.0-dev.7](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.6...v1.46.0-dev.7) (2026-09-30)
+
+
+### Bug Fixes
+
+* **FotMob:** Force FotMob+ toolbar logo ([77c4570](https://github.com/hoo-dles/morphe-patches/commit/77c45701d1836adbb145a73cc631d29b20b822fc))
+
 # [1.46.0-dev.6](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0-dev.5...v1.46.0-dev.6) (2026-09-30)
 
 

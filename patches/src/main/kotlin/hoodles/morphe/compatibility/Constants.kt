@@ -226,7 +226,7 @@ object Compat {
         name = "Niagara Launcher",
         packageName = "bitpit.launcher",
         appIconColor = 0x9fcdfb,
-        targets = listOf(AppTarget("1.16.24"))
+        targets = listOf(AppTarget("1.16.31"))
     )
 
     val NOMONE = Compatibility(

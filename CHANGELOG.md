@@ -1,3 +1,10 @@
+# [1.47.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0...v1.47.0-dev.1) (2026-10-03)
+
+
+### Features
+
+* **Ling:** Update to `8.9.0` ([d5013e8](https://github.com/hoo-dles/morphe-patches/commit/d5013e892033f24d943ef8d4aabab3c1cb011d97))
+
 # [1.46.0](https://github.com/hoo-dles/morphe-patches/compare/v1.45.0...v1.46.0) (2026-09-30)
 
 

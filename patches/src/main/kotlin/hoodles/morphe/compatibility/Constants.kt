@@ -155,7 +155,7 @@ object Compat {
         name = "Ling",
         packageName = "com.simyasolutions.ling.universal",
         appIconColor = 0xF8485E,
-        targets = listOf(AppTarget("8.4.4"))
+        targets = listOf(AppTarget("8.9.0"))
     )
 
     val LINGODEER = Compatibility(

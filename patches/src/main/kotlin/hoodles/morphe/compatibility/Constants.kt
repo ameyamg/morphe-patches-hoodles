@@ -278,7 +278,7 @@ object Compat {
         name = "Proton VPN",
         packageName = "ch.protonvpn.android",
         appIconColor = 0x6D4AFF,
-        targets = listOf(AppTarget("5.19.43.0"))
+        targets = listOf(AppTarget("5.20.57.0"))
     )
 
     val PYDROID = Compatibility(

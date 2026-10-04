@@ -1,3 +1,10 @@
+# [1.47.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.1...v1.47.0-dev.2) (2026-10-04)
+
+
+### Features
+
+* **ProtonVPN:** Update patches to support `5.20.57.0` ([8f6d304](https://github.com/hoo-dles/morphe-patches/commit/8f6d3047017fdc088890d674aa287689c6690117))
+
 # [1.47.0-dev.1](https://github.com/hoo-dles/morphe-patches/compare/v1.46.0...v1.47.0-dev.1) (2026-10-03)
 
 

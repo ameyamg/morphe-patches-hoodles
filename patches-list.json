@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.47.0-dev.2",
+  "version": "1.47.0-dev.3",
   "patches": [
     {
       "name": "AMOLED dark theme",
@@ -419,7 +419,7 @@
           "signatures": null,
           "targets": [
             {
-              "version": "237.17614.20260921",
+              "version": "238.17666.20260928",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,

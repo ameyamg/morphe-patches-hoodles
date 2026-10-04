@@ -1,3 +1,10 @@
+# [1.47.0-dev.3](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.2...v1.47.0-dev.3) (2026-10-04)
+
+
+### Features
+
+* Update `Universal MicroG` support for FotMob ([8c5f249](https://github.com/hoo-dles/morphe-patches/commit/8c5f2498c5a611b677b340bfcd49a9d60d53e98b))
+
 # [1.47.0-dev.2](https://github.com/hoo-dles/morphe-patches/compare/v1.47.0-dev.1...v1.47.0-dev.2) (2026-10-04)
 
 
